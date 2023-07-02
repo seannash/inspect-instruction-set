@@ -1,0 +1,11 @@
+[requires]
+capstone/4.0.2
+boost/1.82.0
+elfio/3.11
+
+[options]
+boost*:program_options=True
+
+[generators]
+CMakeDeps
+CMakeToolchain
